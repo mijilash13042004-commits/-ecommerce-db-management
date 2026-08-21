@@ -8,7 +8,7 @@ This is a MySQL project I built to practice database design and SQL — a full b
 
 ## ER Diagram
 
-![ER Diagram](https://github.com/mijilash13042004-commits/-ecommerce-db-management/blob/962a749618ea3876cdb3640b26e70a32c01cec19/ecommerce_ER_diagram.png)
+![ER Diagram]()
 
 ## Things I implemented
 
@@ -23,7 +23,11 @@ This is a MySQL project I built to practice database design and SQL — a full b
 
 ## Files
 
-- `E_commerce_data_management.sql` — the whole thing: schema, sample data, queries
+- `01_ecommerce_creation.sql` — database creation, all 13 tables, and indexes
+- `02_ecommerce_data.sql` — sample data (INSERT statements for every table)
+- `03_ecommerce_query.sql` — all queries: CRUD, filtering, sorting, aggregates, subqueries, every join type, indexing/EXPLAIN, stored procedures, functions, triggers, events, transactions, and user/security management
+
+Run them in order (01 → 02 → 03); files after the first start with `use ecommerce_db;` so they can also be run independently once the schema exists.
 
 ## Built with
 
