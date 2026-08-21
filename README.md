@@ -8,7 +8,7 @@ This is a MySQL project I built to practice database design and SQL — a full b
 
 ## ER Diagram
 
-![ER Diagram](ecommerce_db_erd.png)
+![ER Diagram](https://github.com/mijilash13042004-commits/-ecommerce-db-management/blob/962a749618ea3876cdb3640b26e70a32c01cec19/ecommerce_ER_diagram.png)
 
 ## Things I implemented
 
